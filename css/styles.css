@@ -1,12 +1,46 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'STIX Two Text', serif;
 }
 .header{
     min-height:90vh;
     width:100;
-    background:linear-gradient(rgba(),rgba()),url("../img/header.jpg") no repeat;
+    background:linear-gradient(rgba(211,101,28,0.7),rgba(211,101,28,0.7)),url("../images/header.jpg") no-repeat fixed;
     background-position:center;
     background-size:cover;
     position:relative;
+}
+.text{
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+}
+.text h1{
+    font-size:80px;
+}
+/*------------------------about akan section--------------------------------*/
+.text-box{
+    width:80%;
+    margin:auto;
+    text-align:center;
+
+}
+p{
+    color:#777;
+    font-size:14px;
+    font-weight:600;
+    line-height:22px;
+    padding:10px;
+}
+/*---------------input section-----------------------------------------*/
+.response{
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+h6{
+    font-size:36px;
+    font-weight:600;
 }
