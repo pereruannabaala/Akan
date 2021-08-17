@@ -9,26 +9,79 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">
-    <script src='main.js'></script>
 </head>
 <body>
-    <!--------------------------------header section-------------------------------------------------------------->
+    <!--header section-->
     <div class="header">
         <div class="text">
             <h1>Akan birthcart</h1>
         </div>
     </div>
-    <!--------------------------------details about akan ---------------------------------------------------------->
+    <!--details about akan-->
     <div class="text-box">
         <p>This website enables you to know about your Akan Name.Akan names are names givn to Ghanian Children depending on the day of the week they were born and sexuality</p>
         <p>You can now know your Akan Name by inputting details about your date of birth and sex.</p>
     </div>
-    <!--------------------------------------input part------------------------------------------------------------>
+    <!--input part-->
 <div id="results">
     <div id="error" class="response">
         <h6><b>Please enter your date of birth details</b></h6>
-
+    <!--form--> 
+    <form>
+        <div class="form">
+            <div class="form col">
+                <!--adds calendar icon-->
+                <div class="calendar-col">
+                    <i class="fa fa-calendar"></i>
+                </div>
+                <!--date input box-->
+                <div class="date-col">
+                    <label for="Enter date"><b>Date</b></label>
+                   <input type="number" class="form-control" id="dd" placeholder="Enter dater" min="1" max="31" required>
+                </div>
+                <!--month input box-->
+                <div class="month-col">
+                    <label for="mm"></label><b>Month</b></label>
+                    <select class="form-control" id="mm">
+                        <option>----</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+        </select>
+        <!--year input box-->
+        <div class="year-col">
+            <label for="yy"><b>Year</b></label>
+            <input type="number" class="form-control" id="yy" placeholder="Enter year" min="1" max="2021" required>
+        </div>
+        <div class="form col">
+        </div>
+        <!--gender radios-->
+        <div class="form-group">
+            <label class="label">What's your gender?</label>
+            <div class="radio-default">
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">&nbsp;&nbsp;<b>Female</b></label>
+            </div>
+            <div class="radio-default">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">&nbsp;&nbsp;<b>Male</b></label>
+            </div>
+        </div>
+        <div class="button">
+            <button type="submit" onclick="readData(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Know your Akan Birthchart</button>
+        </div>
+    </form>
     </div>
 </div>
+<script src='main.js'></script>
 </body>
 </html>
