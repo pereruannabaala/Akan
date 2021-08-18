@@ -5,11 +5,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Akan</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=STIX+Two+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">
 </head>
 <body>
@@ -24,8 +24,8 @@
         <p>This website enables you to know about your Akan Name.Akan names are names givn to Ghanian Children depending on the day of the week they were born and sexuality</p>
         <p>You can now know your Akan Name by inputting details about your date of birth and sex.</p>
     </div>
-    <!--input part-->
-<div id="results">
+    <!--caling errors-->
+<div id="result">
     <div id="error" class="response">
         <h6><b>Please enter your date of birth details</b></h6>
     <!--form--> 
@@ -39,7 +39,7 @@
                 <!--date input box-->
                 <div class="date-col">
                     <label for="Enter date"><b>Date</b></label>
-                   <input type="number" class="form-control" id="dd" placeholder="Enter dater" min="1" max="31" required>
+                   <input type="number" class="form-control" id="dd" placeholder="Enter date" min="1" max="31" required>
                 </div>
                 <!--month input box-->
                 <div class="month-col">
@@ -81,7 +81,21 @@
         <div class="button">
             <button type="submit" onclick="readData(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Know your Akan Birthchart</button>
         </div>
+        </div>
     </form>
+    </div>
+</div>
+</div>
+</div>
+<!--know more about akan section-->
+<div class="about">
+    <div class="about-col">
+            <p>WANNA KNOW MORE ABOUT<br> AKAN?</p>
+        </div>
+    </div>
+<div class="about-col"> 
+    <div>
+        <button type="button" class="about-btn">Click Here</button>
     </div>
 </div>
 <script src="js/scripts.js"></script>
