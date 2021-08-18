@@ -20,7 +20,7 @@
 .text h1{
     font-size:80px;
 }
-/*------------------------about akan section--------------------------------*/
+/*--about akan section--*/
 .text-box{
     width:80%;
     margin:auto;
@@ -34,7 +34,7 @@ p{
     line-height:22px;
     padding:10px;
 }
-/*---------------input section-----------------------------------------*/
+/*--input section--*/
 .response{
     width:80%;
     margin:auto;
@@ -43,4 +43,26 @@ p{
 h6{
     font-size:36px;
     font-weight:600;
+}
+.about{
+    width:100%;
+    padding-top:100px;
+    margin:auto;
+    height:30vh;
+}
+.about{
+    flex-basis:44%;
+    margin-top:5%;
+    background:gold;
+    padding:25px;
+    cursor:pointer;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+.about-col p{
+    padding:0;
+    color:black;
+    
 }
