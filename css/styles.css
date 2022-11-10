@@ -26,7 +26,11 @@
     width:80%;
     margin:auto;
     text-align:center;
-
+}
+.response{
+    height:80%;
+    margin:auto;
+    text-align:center;
 }
 p{
     color:#777;
@@ -42,18 +46,15 @@ p{
     align-items: center;
     height:30px;
 }
-.response{
-    width:80%;
-    margin:auto;
-    text-align:center;
-}
+
 h6{
     font-size:36px;
     font-weight:600;
     color:rgba(255,69,0,0.7);
 }
 .calendar-col{
-    color:rgba(255, 69, 0,0.7)
+    color:rgba(255, 69, 0,0.7);
+    margin: 25px 50px;
 }
 .date-col{
     color:rgba(255,69,0,0.7);
