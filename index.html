@@ -21,17 +21,18 @@
     </div>
     <!--details about akan-->
     <div class="text-box">
-        <p>This website enables you to know about your Akan Name.Akan names are names givn to Ghanian Children depending on the day of the week they were born and sexuality</p>
-        <p>You can now know your Akan Name by inputting details about your date of birth and sex.</p>
+        <p>This website enables you to know about your Akan Name.Akan names are names givn to Ghanian Children depending on the day of the week they were born and sexuality<br>You can now know your Akan Name by inputting details about your date of birth and sex.</p>
     </div>
     <!--caling errors-->
-<div id="result">
-    <div id="error" class="response">
-        <h6><b>Please enter your date of birth details</b></h6>
+    <div id="result">
+        <div id="error" class="response">
+            <h6><b>Please enter your date of birth details</b></h6>
+        </div>
+    </div>        
     <!--form--> 
     <form>
         <div class="form">
-            <div class="form col">
+            <div class="form-col">
                 <!--adds calendar icon-->
                 <div class="calendar-col">
                     <i class="fa fa-calendar"></i>
@@ -39,7 +40,7 @@
                 <!--date input box-->
                 <div class="date-col">
                     <label for="Enter date"><b>Date</b></label>
-                   <input type="number" class="form-control" id="dd" placeholder="Enter date" min="1" max="31" required>
+                    <input type="number" class="form-control" id="dd" placeholder="Enter date" min="1" max="31" required>
                 </div>
                 <!--month input box-->
                 <div class="month-col">
@@ -58,38 +59,35 @@
                         <option>October</option>
                         <option>November</option>
                         <option>December</option>
-        </select>
-        <!--year input box-->
-        <div class="year-col">
-            <label for="yy"><b>Year</b></label>
-            <input type="number" class="form-control" id="yy" placeholder="Enter year" min="1" max="2021" required>
-        </div>
-        <div class="form col">
-        </div>
-        <!--gender radios-->
-        <div class="form-group">
-            <label class="label">What's your gender?</label>
-            <div class="radio-default">
-                <input type="radio" name="gender" id="female" value="Female">
-                <label for="female">&nbsp;&nbsp;<b>Female</b></label>
+                    </select>
+                </div>    
+                <!--year input box-->
+                <div class="year-col">
+                    <label for="yy"><b>Year</b></label>
+                    <input type="number" class="form-control" id="yy" placeholder="Enter year" min="1" max="2021" required>
+                </div>
+                <!--gender radios-->
+                <div class="form-group">
+                    <label class="label">What's your gender?</label>
+                    <div class="radio-default">
+                        <input type="radio" name="gender" id="female" value="Female">
+                        <label for="female">&nbsp;&nbsp;<b>Female</b></label>
+                    </div>
+                    <div class="radio-default">
+                        <input type="radio" name="gender" id="male" value="Male">
+                        <label for="male">&nbsp;&nbsp;<b>Male</b></label>
+                    </div>
+                </div>    
+                <div class="button">
+                    <button type="submit" onclick="readData(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
+                </div>
             </div>
-            <div class="radio-default">
-                <input type="radio" name="gender" id="male" value="Male">
-                <label for="male">&nbsp;&nbsp;<b>Male</b></label>
-            </div>
-        </div>
-        <div class="button">
-        <div class="button">
-            <button type="submit" onclick="readData(); return false;" class="btn btn-primary btn-xs">&nbsp;&nbsp;Know your Akan Birthchart <i class="fa fa-search" aria-hidden="true"></i></button>
-        </div>
-        </div>
-    </form>
-    </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+        </div>    
+        </form>
+</body>
+<script src="js/scripts.js"></script>
+</html>    
+
 
 
 
