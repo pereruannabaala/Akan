@@ -11,3 +11,7 @@ Akan names are part of the cultural heritage of the Akan people. Each day of the
 + Calculate the day of the week from a given date.
 + Generate and display Akan names based on the calculated day of the week and the provided gender.
 + Simple and intuitive user interface.
+
+# Getting Started
+
+## Prerequisites
