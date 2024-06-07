@@ -15,3 +15,21 @@ Akan names are part of the cultural heritage of the Akan people. Each day of the
 # Getting Started
 
 ## Prerequisites
+
+To run this project, you need a modern web browser and a basic understanding of HTML, CSS, and JavaScript.
+
+## Installation
+
+1. Clone the repository
+
+```python
+https://github.com/pereruannabaala/Akan.git
+```
+
+2. Navigate to the project directory
+
+```python
+cd Akan
+```
+
+3. Open index.html in your web browser to run the application.
