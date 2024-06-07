@@ -32,4 +32,12 @@ https://github.com/pereruannabaala/Akan.git
 cd Akan
 ```
 
-3. Open index.html in your web browser to run the application.
+3. Open "index.html" in your web browser to run the application.
+
+## Usage
+
+1. Open index.html in a web browser.
+2. Enter your date of birth in the provided input field.
+3. Select your gender (male or female).
+4. Click the "Generate Akan Name" button.
+5. Your Akan name will be displayed based on the day of the week you were born.
