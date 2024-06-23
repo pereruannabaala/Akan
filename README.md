@@ -41,3 +41,12 @@ cd Akan
 3. Select your gender (male or female).
 4. Click the "Generate Akan Name" button.
 5. Your Akan name will be displayed based on the day of the week you were born.
+
+## Contributing
+
+Contributions are welcome! Here are a few ways you can help:
+
++ <strong>Report bugs</strong>: If you find any issues, please open an issue on GitHub.
++ <strong>Feature requests</strong>: If you have ideas to improve the project, feel free to suggest them.
++ <strong>Pull requests</strong>: If you can fix a bug or implement a feature, feel free to fork the repository and submit a pull request.
+
