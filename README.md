@@ -62,4 +62,4 @@ Contributions are welcome! Here are a few ways you can help:
 ## Contact
 + <strong>Author</strong>: Pereruan Nabaala
 + <strong>Email</strong>: pereruannabaala@gmail.com
-GitHub: pereruannabaala
++ <strong>GitHub</strong>: pereruannabaala
