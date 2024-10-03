@@ -1,7 +1,9 @@
 # Akan Name Generator
 
-Welcome to the Akan Name Generator! This project is a simple JavaScript-based application that generates Akan names based on the day of the week a person is born. Akan names are derived from the Akan people of Ghana and are given based on the day of the week a child is born.
-
+Welcome to the Akan Name Generator! This project is a simple JavaScript-based application that generates Akan names based on the day of the week a person is born. Language
+Watch
+Edit
+The Akan people of Ghana, Côte d'Ivoire and Togo frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
 ## Introduction
 
 Akan names are part of the cultural heritage of the Akan people. Each day of the week corresponds to a specific name for males and females. This generator allows users to input their date of birth and gender to receive their corresponding Akan name.
