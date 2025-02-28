@@ -1,4 +1,4 @@
-use# Akan Name Generator
+# Akan Name Generator
 
 Welcome to the Akan Name Generator! This project is a simple JavaScript-based application that generates Akan names based on the day of the week a person is born. Language
 Watch
